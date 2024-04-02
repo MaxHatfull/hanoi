@@ -1,5 +1,3 @@
-# TODO: Fix the problem of going back and forth between the same stick over and over
-
 MOVE_CACHE = {}
 
 def countMoves(state, count = 0)
