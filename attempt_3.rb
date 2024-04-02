@@ -1,7 +1,5 @@
 def count_moves(count)
-  return 1 if count == 1
-
-  2 * count_moves(count - 1) + 1
+  ("1" * count).to_i(2)
 end
 
 def test(n)
@@ -14,4 +12,4 @@ test(100)
 test(1000)
 test(10000)
 
-#test(1000000)
+test(1000000)
